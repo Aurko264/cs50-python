@@ -36,7 +36,7 @@ def convert(fraction):
     if x > y:
         raise ValueError("X cannot be greater than Y.")
     if y == 0:
-        raise ZeroDivisonError("Y cannot  be zero.")
+        raise ZeroDivisionError("Y cannot  be zero.")
 
     percentage  = round((x / y) * 100)
     return percentage
